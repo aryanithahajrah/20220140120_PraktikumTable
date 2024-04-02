@@ -1,0 +1,53 @@
+/*mengatur gaya pada body*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #50727B;
+    font-family: Helvetica, sans-serif;
+}
+
+/*mengatur gaya pada th dan td*/
+th,
+td{
+    padding: 12px 15px;
+    border-bottom: 1px solid #9B4444;
+}
+
+/*mengatur gaya pada tabel*/
+table {
+    border-collapse: collapse;
+    margin: 50px auto;
+    background-color: white;
+    box-shadow: 0 0 20px #0000008f;
+}
+
+/*mengatur ukuraan gambar pada tabel*/
+img {
+    width: 100px;
+    height: auto;
+}
+
+/*memodifikasi tampilan dari elemen <h1>*/
+h1{
+    text-align: center;
+    color: white;
+}
+
+/*mengatur gaya pada semua elemen <tr>*/
+th {
+    background-color: #9B4444;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    font-size: large;
+}
+
+/*mengatur gaya pada semua elemen <td>*/
+td {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    white-space: pre-line;
+}
